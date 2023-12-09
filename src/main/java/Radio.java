@@ -11,7 +11,7 @@ public class Radio {
     }
 
     public void prev() {
-        if (currentStation != 1gitgg) {
+        if (currentStation != 1) {
             currentStation--;
         } else {
             currentStation = 9;
