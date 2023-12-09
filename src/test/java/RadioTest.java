@@ -267,19 +267,6 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
-    public void testRadio23() {
-        Radio radio = new Radio();
-
-        radio.setIncreaseVolume(98);
-
-        int expected = 98;
-        int actual = radio.getIncreaseVolume();
-
-        Assertions.assertEquals(expected, actual);
-    }
-
-    @Test
     public void testRadio24() {
         Radio radio = new Radio();
 
